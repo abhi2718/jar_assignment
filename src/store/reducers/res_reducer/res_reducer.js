@@ -7,7 +7,6 @@ import {
     state = {resource: null, loading: true, errMsg: null},
     action,
   ) => {
-    console.log(action);
     switch (action.type) {
       case REQ_FOR_LOAD_RESOURCE:
         return {

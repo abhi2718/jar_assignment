@@ -15,7 +15,6 @@ export const getResourceAction =
             }),
           });
           const data = await response.json();
-          console.log('data: ',data);
           if (response.ok){
              dispatch({
                 type: REQ_FOR_LOAD_RESOURCE_SUCCESS,
