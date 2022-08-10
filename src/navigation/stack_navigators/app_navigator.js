@@ -9,7 +9,7 @@ export const AppNavigator = () => {
   useEffect(()=>{
     setTimeout(() => {
         dispatch(getResourceAction(1));
-    }, 4000);
+    }, 6000);
   },[])
   if(loading){
     return <SplashScreen/>
